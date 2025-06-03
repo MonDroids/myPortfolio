@@ -20,3 +20,23 @@
             }
         });
 // });
+
+const PASSWORD = "123";
+const loginBTN = document.getElementById("login-button");
+const loginSection = document.getElementById("login-input");
+const adminPanel = document.getElementById("admin-panel");
+const loginError = document.getElementById("login-error");
+
+loginBTN.addEventListener("click", () => {
+    const password = document.getElementById("admin-password").value;
+
+    if(password === PASSWORD){
+        loginSection.style.display = "none";
+        adminPanel.style.display = "block";
+        console.log("Login success");
+    }
+        else{
+            loginError.textContent = "Нууц үг буруу байна!";
+            console.log("Login fail!");
+        }
+});
