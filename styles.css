@@ -261,3 +261,41 @@ footer{
     background-position: top center;
   }
 }
+
+#admin-panel{
+    background: #eee;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#login-section{
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px;
+}
+
+#login-section h2{
+    margin-bottom: 20px;
+    color: #274c8e;
+}
+
+#login-section input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
